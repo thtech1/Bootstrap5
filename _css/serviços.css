@@ -1,0 +1,117 @@
+footer {
+    background-color: #00A3B4;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+header {
+    background-color: #00A3B4;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #ffd700;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#barra-pesquisa {
+    margin: 20px auto;
+    text-align: center;
+}
+#barra-pesquisa input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+#barra-pesquisa button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00A3B4;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#barra-pesquisa button:hover {
+    background-color: #00A3B4;
+}
+.barra-rolagem {
+    width: 100%;
+    overflow-x: hidden;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.conteudo {
+    display: inline-block;
+}
+
+.conteudo img {
+    width: 300px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+.pontos-navegacao {
+    text-align: center;
+}
+
+.ponto {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #888;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.ponto.ativo {
+    background-color: #007bff;
+}
+.produto1 {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 50%;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+}
+
+.produto1 img {
+    width: 300px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;  
+    border: 3px solid green;
+}
+.produto1 button{
+    color: #00A3B4;
+    border-radius: 7px;
+    border: 2px solid #00A3B4;
+}
+

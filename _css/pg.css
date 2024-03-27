@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #00A3B4;
     padding: 10px 0;
     text-align: center;
 }
@@ -21,37 +21,70 @@ nav ul li {
     margin-right: 20px;
 }
 
-nav ul li a {
-    color: #fff;
+nav ul li a{
+    color: white;
     text-decoration: none;
+}
+nav ul li a:hover{
+    color: #ffd700;
 }
 
 .carousel {
     display: flex;
     overflow: hidden;
     margin: 20px auto;
+    display: inline-block;
+    vertical-align: middle;/* Alinha as imagens verticalmente */
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .carousel img {
-    width: 50%;
-    height: 200px;
+    width: 700px;
+    height: 500px;
     margin-right: 10px;
+    margin-left: 18px;
+    margin-top: 10px;
+    border-style:none;
+    border-bottom: #333;
+    border-radius: 5px;
+    
 }
 
 .content {
     display: flex;
     justify-content: space-around;
     margin: 20px auto;
+    
 }
 
 .container {
     width: 45%;
     padding: 10px;
     border: 1px solid #ccc;
+    border-radius: 10px;
+    display:flexbox;
+    justify-content: space-around; /* ou space-between */
+    background-color: #05709C;
+    transition: transform 0.3s ease;
+}
+.container:hover{
+    transform: scale(1.1);
+}
+
+.container2{
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    display: flex;
+    display:flexbox;
     justify-content: space-around; /* ou space-between */
     align-items: center;
+    background-color: #33A1C4; 
+    transition: transform 0.3s ease;  
+}
+.container2:hover{
+    transform: scale(1.1);
 }
 
 .container div {
@@ -60,8 +93,31 @@ nav ul li a {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #00A3B4;
     padding: 10px 0;
     text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+.container img {
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 200px;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+}
+.container2 img{
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 200px;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px
 }
